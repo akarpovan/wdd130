@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 130 | W05 Optional Practice: Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1 class="quiz-title"><input type="checkbox" id="check" name="check" checked class="checkmark">Basic HTML
+                and CSS Quiz</h1>
+        </header>
+        <main>
+            <form>
+                <div class="question">
+                    <label for="q1"><span class="question-number">1. </span>What does the acronim CSS stand for?</label>
+                    <input type="text" id="q1" name="q1" class="form-input">
+                </div>
+                <div class="question">
+                    <label for="q2"><span class="question-number">2. </span>How are id and class attributes selected in
+                        CSS?</label>
+                    <textarea id="q2" name="q2" rows="4" class="form-input textarea-input"></textarea>
+                </div>
+                <div class="question">
+                    <label for="q3"><span class="question-number">3. </span>Which of the following is a valid CSS
+                        comment?</label>
+                    <select id="q3" name="q3" class="form-input select-input">
+                        <option value="" selected disabled>Choose One ...</option>
+                        <option value="option1">Start with /* and end with */</option>
+                        <option value="option2">Start with //</option>
+                        <option value="option3">Start with #</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label for="q4"><span class="question-number">4. </span>What is the bottom margin given this
+                        declaration?</label>
+                    <div class="code-block">margin: 10px 5px 15px;</div>
+                    <input type="number" id="q4" name="q4" class="form-input">
+                </div>
+                <button type="submit" class="submit-btn">Submit Quiz</button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
