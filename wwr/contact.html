@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Rafting Site</title>
+    <title>Contact information - Rafting site</title>
     <meta name="description"
-        content="Anna Karpova's about page on the rafting site for the BYU-Idaho WDD 130 Web Fundamentals course.">
+        content="Anna Karpova's contact page on the rafting site for the BYU-Idaho WDD 130 Web Fundamentals course.">
     <meta name="author" content="Anna Karpova de Nuñez">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,9 +30,125 @@
         </nav>
     </header>
     <main>
-
         <section class="sect">
-            <p>the design is missing</p>
+            <div class="title-section">
+                <h1 class="cent">Contact Us</h1>
+                <div class="note cent">Splash White Water Rafting Company</div>
+            </div>
+        </section>
+        <section class="sect1">
+            <div class="sect-content">
+                <div class="first-column">
+                    <div class="company-info">
+                        <div class="section-title">Company Information</div>
+                        <div class="info-item">
+                            <div>
+                                <p class="p-strong">Address:</p>
+                                <p>Av. Mar Mediterráneo 18, Lima, Peru</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div>
+                                <p class="p-strong">Phone:</p>
+                                <p>+51 987654321</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div>
+                                <p class="p-strong">Email:</p>
+                                <p>info@whitewaterrafting.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.1213544265524!2d-77.06429258874432!3d-12.103843842917883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9b1495aae2f%3A0x7acd88daff70b639!2sAv.%20Mar%20Mediterr%C3%A1neo%2C%20Magdalena%20del%20Mar%2015076!5e0!3m2!1ses-419!2spe!4v1754188668951!5m2!1ses-419!2spe"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="team-section">
+                        <div class="section-title">Our Team</div>
+                        <div class="team-grid">
+                            <div class="team-card">
+                                <figure>
+                                    <img src="images/photo2.png" alt="Lead Guide">
+                                    <figcaption class="p-strong">Mike Torres<br>Lead Guide</figcaption>
+                                </figure>
+                            </div>
+                            <div class="team-card">
+                                <figure>
+                                    <img src="images/photo1.png" alt="Safety Coordinator">
+                                    <figcaption class="p-strong">Sarah Johnson<br>Safety Coordinator</figcaption>
+                                </figure>
+                            </div>
+                            <div class="team-card">
+                                <figure>
+                                    <img src="images/photo3.png" alt="Customer Service">
+                                    <figcaption class="p-strong">John Davis<br>Customer Service</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="second-column">
+                    <div class="form-section">
+                        <div class="section-title">Send Us a Message</div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="n1">Name *</label>
+                            <input type="text" id="n1" name="n1" class="form-input">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="n2">Email Address *</label>
+                            <input type="text" id="n2" name="n2" class="form-input">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="purpose" class="form-label">Purpose of Message *</label>
+                            <div class="radio-group">
+                                <div class="radio-item">
+                                    <label class="form-label">
+                                        <input type="radio" name="purpose" value="General Inquiry">
+                                        General Inquiry
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+                                    <label class="form-label">
+                                        <input type="radio" name="purpose" value="Reservation Question">
+                                        Reservation Question
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+                                    <label class="form-label">
+                                        <input type="radio" name="purpose" value="Website Suggestion">
+                                        Website Suggestion
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="text1" class="form-label">Message *</label>
+                            <textarea id="text1" name="text1" rows="10" class="form-input textarea-input"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="checkbox-group">
+                                <label for="check" class="form-label"><input type="checkbox" id="check" name="check"
+                                        checked class="checkmark"> Please
+                                    subscribe me to the monthly newsletter</label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
