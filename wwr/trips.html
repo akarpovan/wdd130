@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Rafting Site</title>
     <meta name="description"
-        content="Anna Karpova's about page on the rafting site for the BYU-Idaho WDD 130 Web Fundamentals course.">
+        content="Anna Karpova's trips page on the rafting site for the BYU-Idaho WDD 130 Web Fundamentals course.">
     <meta name="author" content="Anna Karpova de Nuñez">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,9 +30,156 @@
         </nav>
     </header>
     <main>
+        <div class="hero">
+            <img src="images/hero_company.png" alt="Splash White Water Rafting Company">
+            <h1>Splash White Water Rafting Company</h1>
+            <article class="art">
+                <img src="images/article.png" alt="lots of fun">
+                <p>Splash starts high in the Rockies and comes roaring out of the mountains. When its water levels rise
+                    in spring and summer, it creates a huge variety of incredible white water — and the rafting action
+                    is non-stop. Any rafting guide will tell you that the Splash will keep you on your toes!</p>
+            </article>
+            <a href="contact.html" class="art1 cta-button">Book Your Adventure Today</a>
+        </div>
+        <section class="trip-descriptions">
+            <h2>Featured Rafting Experiences</h2>
 
-        <section class="sect">
-            <p>the design is missing</p>
+            <div class="trips-grid">
+                <article class="trip-card">
+                    <img src="images/safety-first.png" alt="Rapid Thunder - Class IV rapids with rushing white water">
+                    <div class="trip-content">
+                        <h3>Rapid Thunder</h3>
+                        <p class="trip-difficulty">Class IV Rapids | Full Day</p>
+                        <p>Experience the ultimate adrenaline rush on our most challenging expedition. This
+                            full-day adventure includes professional guides, safety gear, and a riverside lunch.</p>
+                        <ul class="trip-highlights">
+                            <li>8 hours of intense rafting</li>
+                            <li>Professional safety briefing</li>
+                            <li>Riverside gourmet lunch included</li>
+                            <li>Photography service available</li>
+                        </ul>
+                        <p class="trip-price">$189 per person</p>
+                    </div>
+                </article>
+
+                <article class="trip-card">
+                    <img src="images/family-fun.png"
+                        alt="Family Float - Gentle rapids perfect for families with children">
+                    <div class="trip-content">
+                        <h3>Family Float Adventure</h3>
+                        <p class="trip-difficulty">Class I-II Rapids | Half Day</p>
+                        <p>Perfect for families and beginners! Enjoy a relaxing float down scenic river sections with
+                            gentle rapids and stunning mountain views.</p>
+                        <ul class="trip-highlights">
+                            <li>4 hours of scenic floating</li>
+                            <li>Child-friendly safety equipment</li>
+                            <li>Wildlife spotting opportunities</li>
+                            <li>Snacks and drinks included</li>
+                        </ul>
+                        <p class="trip-price">$89 per person</p>
+                    </div>
+                </article>
+
+                <article class="trip-card">
+                    <img src="images/scenic-rivers.png"
+                        alt="Canyon Explorer - Moderate rapids through beautiful canyon scenery">
+                    <div class="trip-content">
+                        <h3>Canyon Explorer</h3>
+                        <p class="trip-difficulty">Class II-III Rapids | Full Day</p>
+                        <p>The perfect middle ground between relaxation and excitement. Journey through breathtaking
+                            canyon landscapes while navigating moderate rapids that provide thrills without overwhelming
+                            beginners.</p>
+                        <ul class="trip-highlights">
+                            <li>6 hours of varied terrain</li>
+                            <li>Swimming and cliff jumping</li>
+                            <li>BBQ lunch by the river</li>
+                            <li>Geological tour included</li>
+                        </ul>
+                        <p class="trip-price">$139 per person</p>
+                    </div>
+                </article>
+
+                <article class="trip-card">
+                    <img src="images/instructor.png"
+                        alt="Sunset Paddle - Evening rafting trip with beautiful sunset views">
+                    <div class="trip-content">
+                        <h3>Sunset Paddle</h3>
+                        <p class="trip-difficulty">Class I Rapids | Evening</p>
+                        <p class="trip-highlights">End your day with a magical sunset rafting experience. Paddle through
+                            calm waters as the sun
+                            sets behind mountain peaks, creating unforgettable memories. This peaceful evening trip
+                            includes hot beverages.</p>
+                        <ul class="trip-highlights">
+                            <li>2.5 hours of evening paddling</li>
+                            <li>Hot beverages and snacks</li>
+                            <li>Photography opportunities</li>
+                            <li>Blankets provided for comfort</li>
+                        </ul>
+                        <p class="trip-price">$69 per person</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="trips-table-section">
+            <h2>Compare All Our Trips</h2>
+            <div class="table-container">
+                <table class="trips-table">
+                    <thead>
+                        <tr>
+                            <th>Trip Name</th>
+                            <th>Duration</th>
+                            <th>Difficulty</th>
+                            <th>Age Minimum</th>
+                            <th>Group Size</th>
+                            <th>Season</th>
+                            <th>Price</th>
+                            <th>Book Now</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Trip Name">Family Float Adventure</td>
+                            <td data-label="Duration">Half Day (4 hrs)</td>
+                            <td data-label="Difficulty">Class I-II</td>
+                            <td data-label="Age Minimum">6 years</td>
+                            <td data-label="Group Size">4-12 people</td>
+                            <td data-label="Season">May-September</td>
+                            <td data-label="Price">$89</td>
+                            <td data-label="Book Now"><a href="contact.html" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Trip Name">Sunset Paddle</td>
+                            <td data-label="Duration">Evening (2.5 hrs)</td>
+                            <td data-label="Difficulty">Class I</td>
+                            <td data-label="Age Minimum">8 years</td>
+                            <td data-label="Group Size">6-16 people</td>
+                            <td data-label="Season">June-August</td>
+                            <td data-label="Price">$69</td>
+                            <td data-label="Book Now"><a href="contact.html" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Trip Name">Canyon Explorer</td>
+                            <td data-label="Duration">Full Day (6 hrs)</td>
+                            <td data-label="Difficulty">Class II-III</td>
+                            <td data-label="Age Minimum">12 years</td>
+                            <td data-label="Group Size">6-14 people</td>
+                            <td data-label="Season">April-October</td>
+                            <td data-label="Price">$139</td>
+                            <td data-label="Book Now"><a href="contact.html" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Trip Name">Rapid Thunder</td>
+                            <td data-label="Duration">Full Day (8 hrs)</td>
+                            <td data-label="Difficulty">Class IV</td>
+                            <td data-label="Age Minimum">16 years</td>
+                            <td data-label="Group Size">4-10 people</td>
+                            <td data-label="Season">May-September</td>
+                            <td data-label="Price">$189</td>
+                            <td data-label="Book Now"><a href="contact.html" class="book-btn">Book</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
     </main>
     <footer>
@@ -48,6 +195,9 @@
                 <img src="images/instagram-64.webp" alt="Instagram">
             </a>
         </nav>
+        <div class="footer-bottom">
+            <a href="images/trips-wireframe.png" target="_blank">View Trips Page Wireframe</a>
+        </div>
     </footer>
 </body>
 
